@@ -22,7 +22,7 @@ class AppFuntions():
 
     # Criando coneção com Banco de Dados
     def create_connection(db_file):
-        """ criando uma coneção com Banco de Dados utilzando um Banco de Dados 'SQLite' """
+        """ criando uma conexão com Banco de Dados utilzando um Banco de Dados 'SQLite' """
         conn = None 
         try:
             conn = sqlite3.connect(db_file)

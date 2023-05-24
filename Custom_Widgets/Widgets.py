@@ -1,7 +1,3 @@
-## SPINN DESIGN CODE
-# WEBSITE: spinndesign.com
-########################################################################
-
 ## IMPORTS
 import os
 import sys
