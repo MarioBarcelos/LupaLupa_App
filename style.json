@@ -1,0 +1,167 @@
+{
+    "QMainWindow": [
+        {
+            "tittle": "CadSQLite app"
+        }
+    ],
+    "QSettings": [
+        {
+            "ThemeSettings": [
+                {
+                    "CustomTheme": [
+                        {
+                            "Background-color": "#1b1b27",
+                            "Text-color": "#fff",
+                            "Accent-color": "#cc5bce",
+                            "Theme-name": "Default-Dark",
+                            "Icons-color": "#fff",
+                            "Default-Theme": true
+                        }
+                    ]
+                }
+            ],
+            "AppSettings": {
+                "OrginizationName": "3MSolutions",
+                "ApplicationName": "CadSQLite app",
+                "OrginizationDormain": "3MSolutions"
+            }
+        }
+    ],
+    "QPushButtonGroup": [
+        {
+            "Buttons": [
+                "homeBtn",
+                "accountBtn",
+                "reportsBtn",
+                "settingsBtb",
+                "helpBtn",
+                "aboutBtn"
+            ],
+            "Style":[
+                {
+                "Active": "background-color: #1b1b27;border-left: 3px solid #cc5bce;font-weight: bold;",
+                "NotActive": "background-color: transparent; border: none;"
+                }
+            ]
+        }
+    ],
+    "QCustomSlideMenu": [
+        {
+            "name": "leftMenu",
+            "defaultSize": [
+                {
+                    "width": 0,
+                    "height": "parent"
+                }
+            ],
+            "collapsedSize": [
+                {
+                    "width": 0,
+                    "height": "parent"
+                }
+            ],
+            "expandedSize": [
+                {
+                    "width": 200,
+                    "height": "parent"
+                }   
+            ],
+            "toggleButton": [
+                {
+                    "buttonName": "menuBtn",
+                    "icons": [
+                        {
+                            "whenMenuIsCollapsed": ":/icons/align-justify.svg",
+                            "whenMenuIsExpanded": ":/icons/chevron-left.svg"
+                        }
+                            ]
+                }
+            ],
+            "menuTransitionAnimation": [
+                {
+                    "animationDuration": 500,
+                    "animationEasingCurve": "Linear"
+                
+                }
+            ]
+        },
+        {
+            "name": "rightMenu",
+            "defaultSize": [
+                {
+                    "width": 0,
+                    "height": "parent"
+                }
+            ],
+            "collapsedSize": [
+                {
+                    "width": 0,
+                    "height": "parent"
+                }
+            ],
+            "expandedSize": [
+                {
+                    "width": 200,
+                    "height": "parent"
+                }   
+            ],
+            "toggleButton": [
+                {
+                    "buttonName": "showUserFormBtn",
+                    "icons": [
+                        {
+                            "whenMenuIsCollapsed": ":/icons/plus-square.svg",
+                            "whenMenuIsExpanded": ":/icons/x.svg"
+                        }
+                            ]
+                }
+            ],
+            "menuTransitionAnimation": [
+                {
+                    "animationDuration": 500,
+                    "animationEasingCurve": "Linear"
+                
+                }
+            ]
+        }
+    ],
+    "QStackedWidget":[
+		{
+			"name":"mainPages",
+			"transitionAnimation":[
+				{
+					"fade":[
+						{
+							"active": true,
+							"duration":1000,
+							"easingCurve": "OutBack"
+						}
+					],
+					"slide":[
+						{
+							"active":true,
+							"duration": 1000,
+							"direction": "horizontal",
+							"easingCurve": "OutBack"
+						}
+					]
+				}
+			],
+			"navigation":[
+				{
+					"navigationButtons":[
+						{
+							"homeBtn": "homePage",
+							"reportsBtn": "reportsPage",
+							"accountBtn": "accountsPage",
+							"settingsBtn": "settingsPage",
+							"helpBtn": "helpPage",
+							"aboutBtn": "aboutPage"
+						}
+					]
+				}
+			]
+	
+		}
+	]
+}

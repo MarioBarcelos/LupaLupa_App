@@ -1,0 +1,47 @@
+*{
+	border: none;
+	background-color: transparent;
+	background: transparent;
+	padding: 0;
+	margin: 0;
+	color:  #fff;
+}
+#centralWidget, #mainBodyContent, QLineEdit{
+	background-color: #1b1b27;
+}
+
+#header, #mainBody, #footer{
+	background-color: #27263c;
+}
+
+#user{
+	border: 1px sold #cc5bce;
+	border-radius: 19px;
+	text-align: center;
+}
+
+#addUserBtn{
+	background-color: #cc5bce;
+	border-radius: 10px;
+}
+
+#leftMenu QPushButton{
+	text-align: left;
+	padding: 5px 10px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 0;
+	border-bottom-right-radius: 0;
+	background-color: transparent;
+}
+
+#homeBtn{
+	border-left: 3px solid #cc5bce;
+	font-weight: bold;
+	background-color: #1b1b27;
+}
+
+QLineEdit{
+	padding: 5px 10px;
+	border-radius: 5px; 
+}
